@@ -41,6 +41,24 @@
 
     <!-- Template Stylesheet -->
     <link href="style.css" rel="stylesheet">
+
+    <style>
+         /* Add custom styles for the WhatsApp button */
+         #whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        /* Adjust the width and height of the image */
+        #whatsapp-btn img {
+            max-width: 100%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+            width: 80px; /* You can adjust the width as needed */
+            height: 90px; /* You can adjust the height as needed */
+        }
+    </style>
 </head>
 
 <body>
@@ -68,6 +86,7 @@
                     <div class="navbar-nav mx-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="internship.html" class="nav-item nav-link">Internship</a>
+                        <a href="workshop.html" class="nav-item nav-link">Workshop</a>
                         <a href="submission.html" class="nav-item nav-link">Submission</a>
                         <a href="certificate_verification.html" class="nav-item nav-link">Verify Certificate</a>
                         <!-- <div class="nav-item dropdown">
@@ -555,29 +574,7 @@
                 <a class="btn btn-link" href="">Terms & Condition</a>
                 <a class="btn btn-link" href="">Career</a>
             </div>
-            <!-- <div class="col-md-6 col-lg-3">
-                <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
-                <div class="row g-2">
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-1.jpg" alt="Image">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-2.jpg" alt="Image">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-3.jpg" alt="Image">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-4.jpg" alt="Image">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-5.jpg" alt="Image">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="portfolio-6.jpg" alt="Image">
-                    </div>
-                </div>
-            </div> -->
+            
             <div class="col-md-6 col-lg-3">
                 <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
                 <p>Alfido Tech has started internship Registration. Alfido Tech wishes you a bright future</p>
@@ -613,7 +610,12 @@
 
 
 <!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!-- <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+<div id="whatsapp-btn">
+    <a href="https://api.whatsapp.com/send?phone=9977465250" target="_blank">
+        <img src="Welcome.gif" alt="WhatsApp GIF" class="img-fluid">
+    </a>
+</div>
 </div>
 
 <!-- JavaScript Libraries -->
