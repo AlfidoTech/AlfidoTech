@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <title>Alfido Tech Internship</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   <meta content="" name="Alfido Tech Internship, Alfido Tech">
+    <meta content="" name="Alfido Tech Internship, Alfido Tech">
     <meta content="" name="IT Services and IT Consulting">
     <meta name="keywords" content="Alfido Tech, Internship, Alfido Tech Internship, alfido tech, alfidotech">
     <meta name="author" content="Bhanu Pratap Biswas">
-    <meta name="description" content="Alfido Tech is a leading technology company providing innovative solutions in the tech industry. Explore our services and expertise.">
-    <meta name="keywords" content="Alfidotech, alfido tech, Alfidotech,Alfido Tech, technology solutions, tech company, innovation, IT services,,unpaid internship, free internship">
-    
+    <meta name="description"
+        content="Alfido Tech is a leading technology company providing innovative solutions in the tech industry. Explore our services and expertise.">
+    <meta name="keywords"
+        content="Alfidotech, alfido tech, Alfidotech,Alfido Tech, technology solutions, tech company, innovation, IT services,,unpaid internship, free internship">
+
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -48,8 +50,27 @@
             font-weight: bold;
             font-size: large;
         }
-    </style>
 
+        /* Add custom styles for the WhatsApp button */
+        #whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        /* Adjust the width and height of the image */
+        #whatsapp-btn img {
+            max-width: 100%;
+            /* Make the image responsive */
+            height: auto;
+            /* Maintain aspect ratio */
+            width: 80px;
+            /* You can adjust the width as needed */
+            height: 90px;
+            /* You can adjust the height as needed */
+        }
+    </style>
 </head>
 
 <body>
@@ -78,6 +99,7 @@
                     <div class="navbar-nav mx-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="internship.html" class="nav-item nav-link ">Internship</a>
+                        <a href="workshop.html" class="nav-item nav-link">Workshop</a>
                         <a href="submission.html" class="nav-item nav-link active">Submission</a>
                         <a href="certificate_verification.html" class="nav-item nav-link">Verify Certificate</a>
                         <!-- <div class="nav-item dropdown">
@@ -262,7 +284,7 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
+                        <p class="section-title text-white h5 mb-4" id="Contact">Address<span></span></p>
                         <p><i class="fa fa-map-marker-alt me-3"></i>Hyderabad Telangana</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+91 9977465250</p>
                         <p><i class="fa fa-envelope me-3"></i>hr@alfidotech.com</p>
@@ -281,33 +303,11 @@
                         <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="Privacypolicy.html" target="_blank">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                         <a class="btn btn-link" href="">Career</a>
                     </div>
-                    <!-- <div class="col-md-6 col-lg-3">
-            <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
-            <div class="row g-2">
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-1.jpg" alt="Image">
-                </div>
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-2.jpg" alt="Image">
-                </div>
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-3.jpg" alt="Image">
-                </div>
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-4.jpg" alt="Image">
-                </div>
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-5.jpg" alt="Image">
-                </div>
-                <div class="col-4">
-                    <img class="img-fluid" src="portfolio-6.jpg" alt="Image">
-                </div>
-            </div>
-        </div> -->
+
                     <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
                         <p>Alfido Tech has started internship Registration. Alfido Tech wishes you a bright future</p>
@@ -346,7 +346,12 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+        <div id="whatsapp-btn">
+            <a href="https://api.whatsapp.com/send?phone=9977465250" target="_blank">
+                <img src="Welcome.gif" alt="WhatsApp GIF" class="img-fluid">
+            </a>
+        </div>
     </div>
 
     <!-- JavaScript Libraries -->
