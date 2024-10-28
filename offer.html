@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer Letter Generator | Alfido Tech</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon and Manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --text-color: #333;
+            --font-family: Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            border: 2px solid var(--primary-color);
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 26px;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: var(--primary-color);
+            margin-top: 20px;
+        }
+
+        .signature-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .signature-item {
+            text-align: center;
+        }
+
+        .signature-item img {
+            width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-logo text-center">
+            <img src="Logo 2.png" alt="Alfido Tech Logo" width="260">
+        </div>
+        <h3 class="text-center mb-4">Internship Offer Letter Form</h3>
+        <form id="internshipForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="internshipDomain" class="form-label">Internship Domain</label>
+                <select id="internshipDomain" class="form-select" required>
+                    <option value="" disabled selected>Select Your Domain...</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="UX/UI Design">UX/UI Design</option>
+                    <option value="React.JS">React.JS</option>
+                    <option value="Python Developer">Python Developer</option>
+                    <option value="Java Developer">Java Developer</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Data Analytics">Data Analytics</option>
+                    <option value="Android Developer">Android Developer</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="cid" class="form-label">Candidate ID (C.ID)</label>
+                <input type="text" id="cid" class="form-control" placeholder="Enter your Candidate ID (C.ID) from your email" required>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="generateOfferLetter()">Submit</button>
+        </form>
+
+        <!-- Offer Letter Template -->
+        <div class="container mt-4" id="offerLetter" style="display: none;">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="header-logo">
+                    <img src="Logo 2.png" alt="Alfido Tech Logo" width="260">
+                </div>
+                <div class="date-section">
+                    <p><b>Date:</b> <span id="date"></span></p>
+                    <p><b>Candidate ID:</b> <span id="candidateId"></span></p>
+                </div>
+            </div>
+            <div class="title">Offer Letter</div>
+            <div class="content">
+                <p><b>Dear <span id="displayName"></span>,</b></p>
+                <p>Congratulations! You have been selected for the <b>Alfido Tech Internship Program</b>.</p>
+                <p>This is an exciting opportunity for you to gain practical experience, learn from industry experts,
+                    and work with a team of domain specialists. We look forward to collaborating with you to ensure a
+                    rewarding internship experience.</p>
+                <p>Please confirm your acceptance to receive further onboarding details. If you have any questions, feel
+                    free to reach out at query@alfidotech.com.</p>
+                <p><b>LET'S GROW TOGETHER!</b></p>
+            </div>
+            <div class="internship-details">
+                <p><b>Your Internship Details:</b></p>
+                <p><b>Domain:</b> <span id="displayDomain"></span></p>
+                <p><b>Duration:</b> 4 Weeks</p>
+                <p><b>Starting Date:</b> 01/11/2024</p>
+            </div>
+            <p>Sincerely,</p>
+
+            <!-- Signature Row -->
+            <div class="signature-row">
+                <div class="signature-item">
+                    <img src="bhanu Sing..png" alt="Founder Signature">
+                    <p>Founder</p>
+                </div>
+                <div class="signature-item">
+                    <img src="Sachin Sing..png" alt="Co-Founder Signature">
+                    <p>Co-Founder</p>
+                </div>
+                <div class="signature-item">
+                    <img src="Stamp Alfido Tech.png" alt="Seal">
+                </div>
+                <div class="signature-item">
+                    <img src="MSME Logo.png" alt="MSME Logo">
+                </div>
+                
+                <div class="signature-item">
+                    <img src="qr.jpg" alt="QR Code for Verification">
+                </div>
+            </div><hr>
+
+            <div class="footer">
+                <p>Email: <a href="mailto:alfidotech@gmail.com">hr@alfidotech.com</a> | Website: <a
+                        href="https://www.alfidotech.com/">www.alfidotech.com</a></p>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <button id="downloadButton" class="btn btn-success" style="display: none;" onclick="downloadPDF()">Download
+                Offer Letter</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        function generateOfferLetter() {
+            const name = document.getElementById('name').value;
+            const internshipDomain = document.getElementById('internshipDomain').value;
+            const candidateId = "BS/REG/" + Math.floor(100000 + Math.random() * 900000);
+            const today = new Date().toLocaleDateString();
+
+            document.getElementById('date').textContent = today;
+            document.getElementById('candidateId').textContent = candidateId;
+            document.getElementById('displayName').textContent = name;
+            document.getElementById('displayDomain').textContent = internshipDomain;
+
+            document.getElementById('offerLetter').style.display = 'block';
+            document.getElementById('downloadButton').style.display = 'inline';
+        }
+
+        function downloadPDF() {
+            const offerLetter = document.getElementById('offerLetter');
+            const options = {
+                margin: 0.5,
+                filename: 'Offer_Letter.pdf',
+                image: { type: 'jpeg', quality: 1.0 },
+                html2canvas: { scale: 3 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            html2pdf().set(options).from(offerLetter).save();
+        }
+    </script>
+
+</body>
+
+</html>
