@@ -11,11 +11,10 @@
 
     <!-- Meta Information -->
     <meta name="keywords"
-        content="IT Internship, Remote IT Internship 2024, Tech Internship Opportunities, IT Internship Application Process, Information Technology Intern, Alfido Tech Internship">
+        content="Internship, IT Internship, Remote IT Internship 2024, Tech Internship Opportunities, IT Internship Application Process, Information Technology Intern, Alfido Tech Internship">
     <meta name="author" content="Alfido Tech">
     <meta name="description"
         content="Explore exciting IT internship opportunities at Alfido Tech. Gain hands-on experience in technology and kickstart your career.">
-
 
     <!-- Favicon and Manifest -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
@@ -104,8 +103,8 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label for="cid" class="form-label">Candidate ID (C.ID)</label>
-                <input type="text" id="cid" class="form-control"
+                <label for="candidateId" class="form-label">Candidate ID (C.ID)</label>
+                <input type="text" id="candidateIdInput" class="form-control"
                     placeholder="Enter your Candidate ID (C.ID) from your email" required>
             </div>
             <button type="button" class="btn btn-primary" onclick="generateOfferLetter()">Submit</button>
@@ -119,9 +118,9 @@
                 </div>
                 <div class="date-section">
                     <p><b>Date:</b> <span id="date"></span></p>
-                    <p><b>Candidate ID:</b> <span id="candidateId"></span></p>
+                    <p><b>Candidate ID:</b> <span id="displayCandidateId"></span></p>
                 </div>
-            </div>
+            </div><br>
             <div class="title">Offer Letter</div>
             <div class="content">
                 <p><b>Dear <span id="displayName"></span>,</b></p>
@@ -130,7 +129,7 @@
                     and work with a team of domain specialists. We look forward to collaborating with you to ensure a
                     rewarding internship experience.</p>
                 <p>Please confirm your acceptance to receive further onboarding details. If you have any questions, feel
-                    free to reach out at query@alfidotech.com.</p>
+                    free to reach out at <a href="mailto:alfidotech@gmail.com">query@alfidotech.com</a>.</p>
                 <p><b>LET'S GROW TOGETHER!</b></p>
             </div>
             <div class="internship-details">
@@ -157,7 +156,6 @@
                 <div class="signature-item">
                     <img src="MSME Logo.png" alt="MSME Logo">
                 </div>
-
                 <div class="signature-item">
                     <img src="qr.jpg" alt="QR Code for Verification">
                 </div>
@@ -181,11 +179,11 @@
         function generateOfferLetter() {
             const name = document.getElementById('name').value;
             const internshipDomain = document.getElementById('internshipDomain').value;
-            const candidateId = "BS/REG/" + Math.floor(100000 + Math.random() * 900000);
+            const candidateId = document.getElementById('candidateIdInput').value;
             const today = new Date().toLocaleDateString();
 
             document.getElementById('date').textContent = today;
-            document.getElementById('candidateId').textContent = candidateId;
+            document.getElementById('displayCandidateId').textContent = candidateId; // Show the user input Candidate ID
             document.getElementById('displayName').textContent = name;
             document.getElementById('displayDomain').textContent = internshipDomain;
 
