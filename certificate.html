@@ -223,6 +223,7 @@
             
         </div>
         <button onclick="searchCandidates()" class="btn btn-primary">Search</button>
+        <a href="" ></a>
         <div id="data" class="mt-4">Loading candidate data...</div>
     </div>
     
@@ -286,6 +287,7 @@
                 </tr>
                 <tr>
                     <th>Certificate</th>
+                    <td><a href="${rowData.certificate}" target="_blank" ><button type="button" class="btn btn-success">View Certificate</button></a></td>
                     
                 </tr>
             </tbody>
@@ -299,7 +301,7 @@
                 const certLink = document.createElement('a');
                 certLink.href = rowData.certificate;
                 certLink.target = '_blank'; // Open in new tab
-                certLink.textContent = 'View Certificate';
+                certLink.textContent = 'Download';
                 certLink.className = 'certificate-link'; // Add CSS class for styling
                 dataItem.appendChild(certLink); // Append the link to the data item
             }
