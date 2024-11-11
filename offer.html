@@ -103,6 +103,16 @@
                 </select>
             </div>
             <div class="mb-3">
+                <label for="internshipMonth" class="form-label">Internship Duration</label>
+                <select id="internshipMonth" class="form-select" required>
+                    <option value="" disabled selected>Select Your Duration...</option>
+                    <option value="4 weeks">4 weeks</option>
+                    <option value="4 Months">4 Months</option>
+                    <option value="6 Months">6 Months</option>
+                    
+                </select>
+            </div>
+            <div class="mb-3">
                 <label for="candidateId" class="form-label">Candidate ID (C.ID)</label>
                 <input type="text" id="candidateIdInput" class="form-control"
                     placeholder="Enter your Candidate ID (C.ID) from your email" required>
@@ -135,7 +145,7 @@
             <div class="internship-details">
                 <p><b>Your Internship Details:</b></p>
                 <p><b>Domain:</b> <span id="displayDomain"></span></p>
-                <p><b>Duration:</b> 4 Weeks</p>
+                <p><b>Duration:</b> <span id="displayMonth"></span></p>
                 <p><b>Starting Date:</b> 10/11/2024</p>
             </div>
             <p>Sincerely,</p>
@@ -181,11 +191,13 @@
             const internshipDomain = document.getElementById('internshipDomain').value;
             const candidateId = document.getElementById('candidateIdInput').value;
             const today = new Date().toLocaleDateString();
+            const internshipMonth = document.getElementById('internshipMonth').value;
 
             document.getElementById('date').textContent = today;
             document.getElementById('displayCandidateId').textContent = candidateId; // Show the user input Candidate ID
             document.getElementById('displayName').textContent = name;
             document.getElementById('displayDomain').textContent = internshipDomain;
+            document.getElementById('displayMonth').textContent = internshipMonth;
 
             document.getElementById('offerLetter').style.display = 'block';
             document.getElementById('downloadButton').style.display = 'inline';
