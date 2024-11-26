@@ -22,14 +22,15 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Open Graph Metadata for Alfido Tech's Remote IT Internship 2024 -->
-<meta property="og:title" content="Alfido Tech Remote IT Internship 2024 | Launch Your Career in Tech!">
-<meta property="og:description" content="Apply for Alfido Tech's Remote IT Internship 2024! Gain practical skills in Frontend Development, Python, Data Analysis, and more. Jumpstart your tech journey with us.">
-<meta property="og:image" content="https://www.alfidotech.com/socalM.webp">
-<meta property="og:url" content="https://www.alfidotech.com/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Alfido Tech">
-<meta property="og:locale" content="en_US">
-<meta property="og:image:alt" content="Alfido Tech Internship 2024 Banner">
+  <meta property="og:title" content="Alfido Tech Remote IT Internship 2024 | Launch Your Career in Tech!">
+  <meta property="og:description"
+    content="Apply for Alfido Tech's Remote IT Internship 2024! Gain practical skills in Frontend Development, Python, Data Analysis, and more. Jumpstart your tech journey with us.">
+  <meta property="og:image" content="https://www.alfidotech.com/socalM.webp">
+  <meta property="og:url" content="https://www.alfidotech.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alfido Tech">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image:alt" content="Alfido Tech Internship 2024 Banner">
 
   <!-- Twitter Card Meta Tags for Alfido Tech Internship -->
   <meta name="twitter:card" content="summary_large_image">
@@ -41,12 +42,13 @@
   <meta name="twitter:url" content="https://www.alfidotech.com/registration.html">
 
   <!-- Open Graph Meta Tags for LinkedIn -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Alfido Tech Internship Opportunities">
-<meta property="og:description" content="Kickstart your career with Alfido Tech! Join our internship program and gain hands-on experience in the world of technology. Apply now!">
-<meta property="og:image" content="https://www.alfidotech.com/lnkdin.webp">
-<meta property="og:url" content="https://www.alfidotech.com/registration.html">
-<meta property="og:site_name" content="Alfido Tech">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alfido Tech Internship Opportunities">
+  <meta property="og:description"
+    content="Kickstart your career with Alfido Tech! Join our internship program and gain hands-on experience in the world of technology. Apply now!">
+  <meta property="og:image" content="https://www.alfidotech.com/lnkdin.webp">
+  <meta property="og:url" content="https://www.alfidotech.com/registration.html">
+  <meta property="og:site_name" content="Alfido Tech">
 
 
   <!-- Preload Images and Sitemap -->
@@ -130,6 +132,12 @@
       padding: 0;
       height: 100%;
     }
+    .back1 {
+            background-image: url(bgi.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
     .back {
       background: url(bgi.webp) no-repeat center center fixed;
@@ -163,69 +171,127 @@
         grid-template-columns: 1fr;
       }
     }
+
+    /* Basic card styling */
+    .card {
+      transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease, border-color 0.4s ease;
+      border-radius: 15px;
+      /* Rounded corners for a modern look */
+      overflow: hidden;
+      /* Ensure the image stays within the card */
+    }
+
+    /* Image styling */
+    .card img {
+      transition: transform 0.4s ease;
+      /* Animates image scaling */
+    }
+
+    /* Animation on hover */
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      /* Lifts and enlarges the card slightly */
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+      /* Deeper shadow for emphasis */
+      background-color: #f8f9fa;
+      /* Subtle background color change */
+      border-color: #061374;
+      /* Border color change to match theme */
+    }
+
+    /* Image scaling on hover */
+    .card:hover img {
+      transform: scale(1.1);
+      /* Slight zoom on image */
+    }
+
+    /* Button styling */
+    .btn-primary {
+      background-color: #061374;
+      /* Matches the color of the heading */
+      border-color: #061374;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #051061;
+      /* Darker shade on hover */
+      box-shadow: 0 5px 15px rgba(6, 19, 116, 0.5);
+      /* Adds button shadow for emphasis */
+    }
+
+    /* Card title styling */
+    .card-title b {
+      color: #061374;
+      /* Strong color to match the brand */
+      font-weight: 700;
+      /* Bold for stronger emphasis */
+    }
   </style>
 </head>
 
 <body class="">
+  
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-          <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240">
-        </a>
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="https://www.alfidotech.com/">
+                <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240" loading="lazy">
+            </a>
 
-        <!-- Navbar Toggler for mobile view -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- Navbar Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Navbar Links and Search Bar -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html"><b>Service</b></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <b>Internship</b>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="registration.html">Registration</a></li>
-                <li><a class="dropdown-item" href="submission.html">Submission</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="task.html"><b>Tasks</b></a></li>
-                <li><a class="dropdown-item" href="offer.html" target="_blank"><b>Offer Letter Generator</b></a></li>
-                <li><a class="dropdown-item" href="editor.html" target="_blank">Code Editor</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="certificate.html"><b>Verify Certificate</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" t><b>Contact Us</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html" t><b>Blog</b></a>
-            </li>
-          </ul>
+            <!-- Navbar Links and Search Bar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.alfidotech.com/index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/service.html"><b>Services</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <b>Internship</b>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/registration.html">Registration</a></li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/submission.html">Submission</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/task.html"><b>Tasks</b></a></li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/offer.html" target="_blank"><b>Offer Letter Generator</b></a></li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/editor.html" target="_blank">Code Editor</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/certificate.html"><b>Verify Certificate</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/contact.html"><b>Contact Us</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/blog.html"><b>Blog</b></a>
+                    </li>
+                </ul>
 
-          <!-- Search Form -->
-          <form class="d-flex" role="search" onsubmit="searchPage(event)">
-            <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
-          </form>
+                <!-- Search Form -->
+                <form class="d-flex" role="search" onsubmit="searchPage(event)">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-      </div>
     </nav>
-  </div>
+</div>
+
 
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -236,7 +302,13 @@
         <img src="slide2.webp" class="d-block w-100" alt="Alfido Tech Slide2">
       </div>
       <div class="carousel-item">
+        <img src="img/DataSlide.webp" class="d-block w-100" alt="Alfido Tech Slide4">
+      </div>
+      <div class="carousel-item">
         <img src="slide3.webp" class="d-block w-100" alt="Alfido Tech Slide3">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Dataslide5.webp" class="d-block w-100" alt="Alfido Tech Slide5">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -260,142 +332,178 @@
   </figure>
 
   <br>
-  <div class="container text-center">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ">
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1620675214626/o-c_A3ztL.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-            class="card-img-top" alt="Frontend Developer">
-          <div class="card-body">
-            <h5 class="card-title">Frontend Developer</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">Frontend Developer Intern</b> and launch
-              your career in web development! This internship provides hands-on experience in creating user-friendly
-              interfaces and working with modern web technologies. If you're a current student or recent graduate with a
-              passion for design and familiarity with HTML, CSS, and JavaScript, we want to hear from you! Apply now to
-              be part of an innovative team and enhance your skills in a collaborative environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+
+  <div class="container mt-5">
+    <div class="row d-flex">
+      <!-- Card 1 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/Frontend.webp" class="card-img-top" alt="Frontend Developer Intern">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Frontend Developer Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a Frontend Developer Intern!
+              Kickstart your web development career with hands-on experience in building responsive, user-friendly
+              interfaces using HTML, CSS, and JavaScript. Perfect for students or recent graduates passionate about
+              design and innovation. Collaborate with a dynamic team, work on real projects, and enhance your skills in
+              a cutting-edge environment. Apply now and shape your future in tech!</p>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://gyaanarth.com/wp-content/uploads/2022/12/Top-10-Python-Developer-Skills.jpg"
-            class="card-img-top" alt="Python Developer">
-          <div class="card-body">
-            <h5 class="card-title">Python Developer</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">Python Developer Intern</b> and kickstart
+
+      <!-- Card 2 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/Python.webp" class="card-img-top" alt="Python Developer Intern ">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Python Developer Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a Python Developer Intern and kickstart
               your career in tech! This internship offers hands-on experience in developing Python applications and
               collaborating with industry experts. If you're a current student or recent graduate with a passion for
               coding and familiarity with Python, we want to hear from you! Apply now to be part of an innovative team
               and enhance your skills in a supportive environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://th.bing.com/th/id/OIP.BoCyuA-cKpLymIbLJ_u4LAHaE8?rs=1&pid=ImgDetMain" class="card-img-top"
-            alt="Data Analyst">
-          <div class="card-body">
-            <h5 class="card-title">Data Analyst</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">Data Analyst Intern</b> and take your
+
+      <!-- Card 3 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/Data.webp" class="card-img-top" alt="Data Analyst Intern">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Data Analyst Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a Data Analyst Intern and take your
               first step into the world of data analysis! This internship provides the opportunity to work with real
               data, gain hands-on experience in data visualization and statistical analysis, and collaborate with
               experienced professionals. If you're a current student or recent graduate with strong analytical skills
               and a passion for data, we want to hear from you! Apply now to enhance your skills and contribute to
               exciting projects in a dynamic environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://th.bing.com/th/id/OIP.dIMlwDS494CZQT6PE5ID8gHaDy?rs=1&pid=ImgDetMain" class="card-img-top"
-            alt="Java Developer">
-          <div class="card-body">
-            <h5 class="card-title">Java Developer</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">Java Developer Intern</b> and kickstart
+    </div>
+  </div>
+  <br>
+
+  <div class="container mt-5">
+    <div class="row d-flex">
+      <!-- Card 1 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/Java.webp" class="card-img-top" alt="Java Developer Intern">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Java Developer Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a Java Developer Intern and kickstart
               your journey in software development! This internship offers hands-on experience in building robust Java
               applications and collaborating with experienced professionals. If you're a current student or recent
               graduate with a passion for programming and familiarity with Java, we want to hear from you! Apply now to
               be part of an innovative team and enhance your skills in a dynamic environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://acquisitioninternational.digital/wp-content/uploads/2022/12/Data-Science.jpg"
-            class="card-img-top" alt="Data Science">
-          <div class="card-body">
-            <h5 class="card-title">Data Science</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">Data Science Intern</b> and launch your
-              career in the dynamic field of data analytics! This internship provides hands-on experience in analyzing
+
+      <!-- Card 2 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/DataS.webp" class="card-img-top" alt="Data Science Intern">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Data Science Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a Data Science Intern and launch your
+              career in the dynamic field of data Science! This internship provides hands-on experience in analyzing
               data, building models, and deriving insights that drive business decisions. If you're a current student or
               recent graduate with a passion for data and familiarity with Python or R, we want to hear from you! Apply
               now to be part of a forward-thinking team and enhance your skills in a collaborative environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://yourserveradmin.com/wp-content/uploads/2020/04/uxui.jpg" class="card-img-top"
-            alt="UX/UI Design">
-          <div class="card-body">
-            <h5 class="card-title">UX/UI Design</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">UX/UI Design Intern</b> and take the first
+
+      <!-- Card 3 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/UXUI.webp" class="card-img-top" alt="UX/UI Design Intern">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">UX/UI Design Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a UX/UI Design Intern and take the first
               step in your design career! This internship provides hands-on experience in creating user-centered designs
               and collaborating with a dynamic team. If you’re a current student or recent graduate with a passion for
               design and familiarity with design tools like Sketch or Figma, we want to hear from you! Apply now to
               enhance your skills in a creative and supportive environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://www.questinfosense.com/wp-content/uploads/android-app-development.png" class="card-img-top"
-            alt="Android Developer">
-          <div class="card-body">
-            <h5 class="card-title">Android Developer</h5>
-            <p class="card-text">Join Alfido Tech as an <b style="color: red;">Android Developer Intern</b> and
-              jumpstart your career in mobile app development! This internship provides hands-on experience in creating
-              innovative Android applications while collaborating with a team of skilled developers. If you're a current
-              student or recent graduate with a passion for coding and experience in Java or Kotlin, we want to hear
-              from you! Apply now to be part of a dynamic team and enhance your skills in a supportive environment.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-          <img src="https://miro.medium.com/v2/resize:fit:680/1*RDN058L5gQ02Xy13OaxjnQ.jpeg" class="card-img-top"
-            alt="React.js Developer">
-          <div class="card-body">
-            <h5 class="card-title">React.js Developer</h5>
-            <p class="card-text">Join Alfido Tech as a <b style="color: red;">React.js Developer Intern</b> and take
-              your first step into the world of web development! This internship provides hands-on experience in
-              building dynamic user interfaces and collaborating with a talented team. If you're a current student or
-              recent graduate with a passion for front-end development and familiarity with React.js, we want to hear
-              from you! Apply now to be part of an innovative environment and enhance your skills in a supportive
-              setting.</p>
-            <a href="registration.html" class="btn btn-primary">Apply</a>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="container mt-5">
+    <div class="row d-flex">
+      <!-- Card 1 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/Android.webp" class="card-img-top" alt="Android Developer">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">Android Developer Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as an Android Developer Intern and
+              jumpstart your career in mobile app development! This internship provides hands-on experience in creating
+              innovative Android applications while collaborating with a team of skilled developers. If you're a current
+              student or recent graduate with a passion for coding and experience in Java or Kotlin, we want to hear
+              from you! Apply now to be part of a dynamic team and enhance your skills in a supportive environment.</p>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/React.jpg" class="card-img-top" alt="React.js">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">React.js Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a React.js Developer Intern and take
+              your first step into the world of web development! This internship provides hands-on experience in
+              building dynamic user interfaces and collaborating with a talented team. If you're a current student or
+              recent graduate with a passion for front-end development and familiarity with React.js, we want to hear
+              from you! Apply now to be part of an innovative environment and enhance your skills in a supportive
+              setting.</p>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 d-flex">
+        <div class="card flex-grow-1">
+          <img src="img/UXUI.webp" class="card-img-top" alt="UX/UI">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title"><b style="color: rgb(6, 19, 116);">UX/UI Design Intern</b></h4>
+            <p class="card-text flex-grow-1">Join Alfido Tech as a UX/UI Design Intern and take the first
+              step in your design career! This internship provides hands-on experience in creating user-centered designs
+              and collaborating with a dynamic team. If you’re a current student or recent graduate with a passion for
+              design and familiarity with design tools like Sketch or Figma, we want to hear from you! Apply now to
+              enhance your skills in a creative and supportive environment.</p>
+            <a href="https://www.alfidotech.com/registration.html" class="btn btn-primary mt-auto">Apply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br>
+
   <br>
   <figure class="text-center">
     <blockquote class="blockquote">
-      <h1 id="service">Discover Our Range of Services</h1>
+      <h2 id="service" class="h1">Discover Our Range of Services</h2>
+      <p>Start your journey today and gain practical experience in the tech world!</p>
     </blockquote>
-  </figure> <br>
-
-
+  </figure> 
+<br>
 
   <div class="container">
     <div class="row">
@@ -521,7 +629,7 @@
       <div class="row g-5 align-items-center">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <p class="section-title text-secondary">About Us<span></span></p>
-          <h1 class="mb-5">Empowering Digital Solutions with 5+ Years of Expertise</h1>
+          <h2 class="mb-5 h1">Empowering Digital Solutions with 5+ Years of Expertise</h2>
           <p class="mb-4">
             In today’s fast-paced digital landscape, experience fuels innovation. At Alfido Tech, we bring over five
             years of dedicated expertise to the forefront of digital transformation. Our tailored solutions are designed
@@ -1007,12 +1115,12 @@
                 <a href="#Social" class="text-white">Social Media Marketing</a>
               </p>
               <hr>
-              <p>
+              <!-- <p>
                 <a href="Shipping&Delivery.html" class="text-white">Shipping and Delivery</a>
               </p>
               <p>
                 <a href="Cancellation&Refund.html" class="text-white">Cancellation and Refund</a>
-              </p>
+              </p> -->
             </div>
             <!-- Grid column -->
 
