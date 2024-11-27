@@ -104,55 +104,55 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="250">
+                <a class="navbar-brand" href="https://www.alfidotech.com/">
+                    <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240" loading="lazy">
                 </a>
-
+    
                 <!-- Navbar Toggler for mobile view -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+    
                 <!-- Navbar Links and Search Bar -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="index.html"><b>Home</b></a>
+                            <a class="nav-link active" aria-current="page" href="https://www.alfidotech.com/"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.html"><b>Service</b></a>
+                            <a class="nav-link" href="https://www.alfidotech.com/service.html"><b>Services</b></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle btn-secondary active" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 <b>Internship</b>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="registration.html">Registration</a></li>
-                                <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/registration.html">Registration</a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/submission.html">Submission</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="task.html"><b>Tasks</b></a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/task.html"><b>Tasks</b></a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/offer.html" target="_blank"><b>Offer Letter Generator</b></a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/editor.html" target="_blank">Code Editor</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="certificate.html"><b>Verify Certificate</b></a>
+                            <a class="nav-link" href="https://www.alfidotech.com/certificate.html"><b>Verify Certificate</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html" t><b>Contact Us</b></a>
+                            <a class="nav-link" href="https://www.alfidotech.com/contact.html"><b>Contact Us</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html" t><b>Blog</b></a>
+                            <a class="nav-link" href="https://www.alfidotech.com/blog.html"><b>Blog</b></a>
                         </li>
                     </ul>
-
+    
                     <!-- Search Form -->
                     <form class="d-flex" role="search" onsubmit="searchPage(event)">
-                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search"
-                            aria-label="Search">
+                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
                     </form>
                 </div>
@@ -212,7 +212,7 @@
                         <h5 style="font-weight: bold;"> 📌 After The Task Submission, The Certificate will be sent
                             to your Email in 2 to 3 days.</h5>
                         <h2>sample certificate of completion</h2>
-                        <img src="Sample_02.png" class="img-fluid img-thumbnail" alt="Responsive image">
+                        <img src="Certfate.png" class="img-fluid img-thumbnail" alt="sample certificate of completion">
 
 
                         </p>
@@ -224,7 +224,7 @@
 
 
     <div class="container">
-        <h2 style="color: blue;">Submission Form</h2>
+        <h2 style="color: blue;"><b>Submission Form</b></h2>
         <form id="submissionForm" method="POST">
             <label for="fullName">Full Name</label>
             <input type="text" class="form-control" id="fullName" name="fullName" required><br>
@@ -309,6 +309,7 @@
                 WhatsApp </a> <br><br><br> -->
 
             <div class="text-center">
+                <p style="color: red;"><b>(Note: After clicking "Submit," a popup will appear. Click "Close" to proceed.)</b></p>
                 <button onclick="openPopup()" type="submit" class="btn btn-primary me-2">Submit</button>
                 <button type="reset" class="btn btn-secondary">Reset</button>
             </div><br>
@@ -319,13 +320,15 @@
 
     <!-- Popup Modal -->
     <div id="popupOverlay" style="display: none;">
-        <a href="bankinfo.html" target="_blank">
+       
         <div id="popup">
             <h2>Submission Completed</h2>
             <p>Your Submission is successfully completed!</p>
-            <button onclick="closePopup()" class="btn1">Close</button>
+            <a href="bankinfo.html" target="_blank">
+              <button onclick="closePopup()" class="btn1">Close</button>
+            </a>
         </div>
-    </a>
+    
     </div>
 
     <script>
