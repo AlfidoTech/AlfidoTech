@@ -24,7 +24,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Center the popup */
-    background-color: rgb(102, 91, 216); /* White background */
+    background-color: rgb(16, 10, 75); /* White background */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
