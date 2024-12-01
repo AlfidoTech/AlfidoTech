@@ -3,36 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secure Payment Gateway | Alfido Tech</title>
 
     <!-- Favicon and Manifest -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-     <!-- Open Graph Metadata for Alfido Tech's Remote IT Internship 2024 -->
-<meta property="og:title" content="Alfido Tech Remote IT Internship 2024 | Launch Your Career in Tech!">
-<meta property="og:description" content="Apply for Alfido Tech's Remote IT Internship 2024! Gain practical skills in Frontend Development, Python, Data Analysis, and more. Jumpstart your tech journey with us.">
-<meta property="og:image" content="https://www.alfidotech.com/payment.webp">
-<meta property="og:url" content="https://www.alfidotech.com/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Alfido Tech">
-<meta property="og:locale" content="en_US">
-<meta property="og:image:alt" content="Secure Payment Gateway | Alfido Tech">
-    
-    
-
-    <!-- Apple Touch Icon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="alfido.png">
-
-    <!-- Android Favicon Icon -->
     <link rel="icon" type="image/png" sizes="192x192" href="alfido1.png">
 
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Secure Payment Gateway | Alfido Tech">
+    <meta property="og:description" content="Experience a seamless and secure payment process with Alfido Tech's Payment Gateway. Pay conveniently for certificates and internships while ensuring complete transaction safety and transparency. Start your journey with Alfido Tech today">
+    <meta property="og:image" content="https://www.alfidotech.com/payment.webp">
+    <meta property="og:url" content="https://www.alfidotech.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Alfido Tech Internship">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:alt" content="Secure Payment Gateway | Alfido Tech">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
         body {
             background-color: #f3f4f6;
@@ -43,19 +40,10 @@
         }
 
         .payment-card {
-            background-color: white;
+            background-color: #fff;
             padding: 25px;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .qr-code img {
-            max-width: 180px;
-            border-radius: 8px;
-        }
-
-        .bank-details {
-            padding: 20px;
         }
 
         .btn-primary {
@@ -68,19 +56,22 @@
         .btn-primary:hover {
             background-color: #06f666;
             border-color: #534bae;
-            color: #f3f4f6;
-
+            color: #fff;
         }
 
         .copy-alert {
             font-size: 14px;
             color: #28a745;
         }
+
+        .qr-code img {
+            max-width: 180px;
+            border-radius: 8px;
+        }
     </style>
 </head>
 
 <body>
-
     <div class="container">
         <div class="payment-card mx-auto" style="max-width: 500px;">
             <div class="text-center mb-4">
@@ -89,107 +80,59 @@
                 <p class="text-muted">Secure Payment Processing</p>
             </div>
             <div class="row align-items-center">
-                <!-- QR Code Section -->
                 <div class="col-md-5 text-center qr-code mb-4 mb-md-0">
-                    <img src="pay1.png" alt="QR Code" class="img-fluid">
+                    <img src="pay1.png" alt="QR Code to Pay" class="img-fluid">
                     <p class="mt-2 text-muted">Scan QR Code to Pay</p>
                 </div>
-                <!-- Bank Details Section -->
-                <div class="col-md-7 bank-details">
-                    <!-- <h5 class="text-primary">Bank Details</h5>
-                <div class="mb-2">
-                    <i class="bi bi-person-circle text-primary me-2"></i>
-                    <strong>Name:</strong> Bhanupratap Biswas
-                </div>
-                <div class="mb-2">
-                    <i class="bi bi-bank text-primary me-2"></i>
-                    <strong>Account No:</strong> 24828100047706
-                </div>
-                <div class="mb-2">
-                    <i class="bi bi-building text-primary me-2"></i>
-                    <strong>IFSC Code:</strong> BARB0SATNAX
-                </div>
-                <button id="copyButton" class="btn btn-outline-primary btn-sm mt-3 w-100">
-                    <i class="bi bi-clipboard"></i> Copy Bank Details
-                </button>
-                <div id="copyAlert" class="copy-alert mt-2 d-none">Bank details copied to clipboard!</div> -->
-                    <h6 class="text-primary">Please make sure the Transaction ID & Date/Time are visible in the
-                        Screenshot
-                        Send payment Screenshot 👇</h6>
-                    <a href="https://api.whatsapp.com/send?phone=919977465250" target="_blank"><button id=""
-                            class="btn btn-primary btn-sm mt-3 w-100">
-                            <i class="bi bi-clipboard"></i> WhatsApp
-                        </button> </a>
+                <div class="col-md-7">
+                    <h6 class="text-primary">Please ensure the Transaction ID & Date/Time are visible in the screenshot.</h6>
+                    <p class="mt-3">
+                        <a href="https://api.whatsapp.com/send?phone=919977465250" target="_blank" aria-label="WhatsApp Payment Screenshot">
+                            <button class="btn btn-primary w-100">Send Screenshot via WhatsApp</button>
+                        </a>
+                    </p>
                 </div>
             </div>
-            <!-- Payment Options -->
+
             <div class="mt-4">
                 <h5 class="text-primary">Choose Your Payment Option</h5>
-                <div class="form-check mt-2">
-                    <label class="form-check-label" for="option399">
-                        <li> Pay <del style="color: red;">₹599</del> <b style="color: green;">₹399</b> to receive a
-                            <b>6-months</b> certificate upon the successful completion of a 1-month internship.
-                        </li>
-                    </label>
-                    
-                </div>
-                <div class="form-check mt-3">
-                    <label class="form-check-label" for="option99">
+                <ul>
+                    <li>Pay <del style="color: red;">₹599</del> <b style="color: green;">₹399</b> to receive a
+                        <b>6-months</b> certificate upon the successful completion of a 1-month internship.</li>
                         <li>Pay <b style="color: green;">₹99</b> for 1-Month Certificate</li>
-                    </label>
-                </div>
-                <div class="form-check mt-2">
-                    <label class="form-check-label" for="option199">
                         <li> Pay <del style="color: red;">₹399</del> <b style="color: green;">₹199</b> to receive a
                             <b>4-months</b> certificate upon the successful completion of a 1-month internship.
                         </li>
-                    </label>
-                </div>
-                
-                <div class="container text-center">
-                    <a href="https://www.paypal.com/ncp/payment/VYNKHUX5KF7GW" target="_blank"><button class="btn-primary" style="color: white;">International Users - Click Here!</button></a>
-                </div>
-                
-                <div class="container">
-                    
-                    <p class="text-muted text-center"> <a
-                            href="https://www.alfidotech.com/certificate.html">Certificate</a>
-                        | <a href="https://www.alfidotech.com/">Home</a> | 
-                    <a href="https://www.alfidotech.com/submission.html">Submission</a></p>
+                </ul>
+                <div class="text-center mt-3">
+                    <a href="https://www.paypal.com/ncp/payment/VYNKHUX5KF7GW" target="_blank">
+                        <button class="btn btn-primary">International Users - Click Here!</button>
+                    </a>
                 </div>
             </div>
 
-
+            <div class="text-center mt-4">
+                <p class="text-muted">
+                    <a href="https://www.alfidotech.com/certificate.html">Certificate</a> | 
+                    <a href="https://www.alfidotech.com/">Home</a> | 
+                    <a href="https://www.alfidotech.com/submission.html">Submission</a>
+                </p>
+            </div>
         </div>
     </div>
 
-    <!-- Bootstrap and Icons JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
-
-    <!-- JavaScript for Copy and Payment Simulation -->
     <script>
-        // Copy Bank Details Functionality
-        document.getElementById('copyButton').addEventListener('click', function () {
-            const details = `Name: Bhanupratap Biswas\nAccount No: 24828100047706\nIFSC Code: BARB0SATNAX`;
-            navigator.clipboard.writeText(details).then(() => {
-                const copyAlert = document.getElementById('copyAlert');
-                copyAlert.classList.remove('d-none');
-                setTimeout(() => copyAlert.classList.add('d-none'), 2000);
+        // Copy Bank Details
+        const copyButton = document.getElementById('copyButton');
+        if (copyButton) {
+            copyButton.addEventListener('click', () => {
+                const details = `Name: Bhanupratap Biswas\nAccount No: 24828100047706\nIFSC Code: BARB0SATNAX`;
+                navigator.clipboard.writeText(details).then(() => {
+                    alert("Bank details copied to clipboard!");
+                });
             });
-        });
-
-        // Simulate Payment Processing for Selected Option
-        document.getElementById('confirmPayment').addEventListener('click', function () {
-            const selectedOption = document.querySelector('input[name="paymentOption"]:checked');
-            if (selectedOption) {
-                alert(`Processing payment of $${selectedOption.value} for the selected certificate...`);
-            } else {
-                alert('Please select a payment option before proceeding.');
-            }
-        });
+        }
     </script>
-
 </body>
 
 </html>
