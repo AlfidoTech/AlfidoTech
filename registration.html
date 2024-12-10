@@ -104,65 +104,67 @@
 
 <body class="">
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <!-- Logo -->
-                <a class="navbar-brand" href="https://www.alfidotech.com/">
-                    <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240" loading="lazy">
-                </a>
-    
-                <!-- Navbar Toggler for mobile view -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <!-- Navbar Links and Search Bar -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="https://www.alfidotech.com/"><b>Home</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.alfidotech.com/service.html"><b>Services</b></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle btn-secondary active" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <b>Internship</b>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item active" href="https://www.alfidotech.com/registration.html">Registration</a></li>
-                                <li><a class="dropdown-item" href="https://www.alfidotech.com/submission.html">Submission</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="https://www.alfidotech.com/task.html"><b>Tasks</b></a></li>
-                                <li><a class="dropdown-item" href="https://www.alfidotech.com/offer.html" target="_blank"><b>Offer Letter Generator</b></a></li>
-                                <li><a class="dropdown-item" href="https://www.alfidotech.com/editor.html" target="_blank">Code Editor</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.alfidotech.com/certificate.html"><b>Verify Certificate</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.alfidotech.com/contact.html"><b>Contact Us</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.alfidotech.com/blog.html"><b>Blog</b></a>
-                        </li>
-                    </ul>
-    
-                    <!-- Search Form -->
-                    <form class="d-flex" role="search" onsubmit="searchPage(event)">
-                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
-                    </form>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="https://www.alfidotech.com/">
+                <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240" loading="lazy">
+            </a>
+
+            <!-- Navbar Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links and Search Bar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="https://www.alfidotech.com/"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/service.html"><b>Services</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <b>Internship</b>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark active">
+                            <li><a class="dropdown-item active" href="https://www.alfidotech.com/registration.html">Internship Registration</a></li>
+                          <li><a class="dropdown-item" href="https://www.alfidotech.com/offer.html" target="_blank">Offer Letter</a></li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/submission.html">Task Submission</a></li>
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/internProfile.html"><b>Intern Profile</b></a></li>
+                          
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/task.html"><b>Tasks</b></a></li>
+                            
+                            <li><a class="dropdown-item" href="https://www.alfidotech.com/editor.html" target="_blank">Code Editor</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/certificate.html"><b>Certificate</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/contact.html"><b>Contact Us</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/blog.html"><b>Blog</b></a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="https://www.alfidotech.com/profile.html"><b>Profile</b></a>
+                    </li>
+                </ul>
+
+                <!-- Search Form -->
+                <form class="d-flex" role="search" onsubmit="searchPage(event)">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
+                </form>
             </div>
-        </nav>
-    </div>
-   
+        </div>
+    </nav>
+</div>
     <div class="container-xxl py-2 bg-primary back1 hero-header">
         <div class="container my-2 py-2 px-lg-2">
           <div class="row g-5 py-5">
@@ -193,7 +195,7 @@
                 <div class="wow fadeInUp" data-wow-delay="0.3s">
                     <ul class="list-group mb-4">
                         <li class="list-group-item"><strong>Duration Options:</strong> 1 month, 4 months, or 6 months</li>
-                        <li class="list-group-item"><strong>Starting Date:</strong> <span class="text-danger">10 December 2024</span></li>
+                        <li class="list-group-item"><strong>Starting Date:</strong> <span class="text-danger">15 December 2024</span></li>
                         <li class="list-group-item"><strong>Submission Window:</strong> 30 December 2024 to 15 January 2025</li>
                         <li class="list-group-item"><strong>Mode:</strong> Online & Task-Based</li>
                         <li class="list-group-item"><strong>Perks:</strong> Offer Letter & Completion Certificate</li>
