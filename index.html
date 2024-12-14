@@ -79,54 +79,75 @@
 
 
 
-  <!-- JSON-LD Schema for Organization, WebPage, and Person -->
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Alfido Tech",
-        "url": "https://www.alfidotech.com/",
-        "logo": "https://www.alfidotech.com/logo.png",
-        "sameAs": [
-            "https://www.facebook.com/profile.php?id=61552559429791",
-            "https://twitter.com/alfidotech",
-            "https://www.linkedin.com/company/alfido-tech/"
-        ],
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.6",
-            "bestRating": "5",
-            "ratingCount": "1901"
-        }
+  <!-- JSON-LD Schema for Organization -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Alfido Tech",
+    "url": "https://www.alfidotech.com/",
+    "logo": "https://www.alfidotech.com/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61552559429791",
+      "https://twitter.com/alfidotech",
+      "https://www.linkedin.com/company/alfido-tech/",
+      "https://www.instagram.com/alfido_tech/"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "bestRating": "5",
+      "ratingCount": "1901"
     }
-    </script>
+  }
+  </script>
+  
+  <!-- JSON-LD Schema for WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Alfido Tech Remote IT Internship 2025",
+    "url": "https://www.alfidotech.com",
+    "description": "Join Alfido Tech's Remote IT Internship 2025 and kickstart your tech career!",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "Bhanu Pratap Biswas",
+      "url": "https://www.linkedin.com/in/bhanupratap-biswas-india/"
+    }
+  }
+  </script>
+  
+  <!-- JSON-LD Schema for BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.alfidotech.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Internship",
+        "item": "https://www.alfidotech.com/registration.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Certification Quiz",
+        "item": "https://www.alfidotech.com/certification.html"
+      }
 
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Alfido Tech Remote IT Internship 2025",
-        "url": "https://www.alfidotech.com/registration.html",
-        "description": "Join Alfido Tech's Remote IT Internship 2024 and kickstart your tech career!",
-        "inLanguage": "en",
-        "author": {
-            "@type": "Person",
-            "name": "Bhanu Pratap Biswas",
-            "url": "https://www.linkedin.com/in/bhanupratapbiswas"
-        }
-    }
-    </script>
-
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alfidotech.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Internship", "item": "https://www.alfidotech.com/registration.html"}
-        ]
-    }
-    </script>
+    ]
+  }
+  </script>
+  
 
   <style>
     body,
