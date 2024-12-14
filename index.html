@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="HandheldFriendly" content="true">
-  <title>Alfido Tech IT Internship 2025 | Kickstart Your Tech Career</title>
+  <title>Alfido Tech IT Internship 2024 | Kickstart Your Tech Career</title>
   <meta name="description"
     content="Join Alfido Tech's IT Internship 2024! Gain practical experience in Frontend Development, Python, and Data Analysis. Start your journey in technology today!">
   <meta name="keywords"
@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Open Graph Metadata for Alfido Tech's Remote IT Internship 2024 -->
-  <meta property="og:title" content="Alfido Tech Remote IT Internship 2025 | Launch Your Career in Tech!">
+  <meta property="og:title" content="Alfido Tech Remote IT Internship 2024 | Launch Your Career in Tech!">
   <meta property="og:description"
     content="Apply for Alfido Tech's Remote IT Internship 2024! Gain practical skills in Frontend Development, Python, Data Analysis, and more. Jumpstart your tech journey with us.">
   <meta property="og:image" content="https://www.alfidotech.com/socalM.webp">
@@ -91,7 +91,6 @@
             "https://www.facebook.com/profile.php?id=61552559429791",
             "https://twitter.com/alfidotech",
             "https://www.linkedin.com/company/alfido-tech/"
-            "https://www.instagram.com/alfido_tech/"
         ],
         "aggregateRating": {
             "@type": "AggregateRating",
@@ -1185,36 +1184,6 @@
       window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     }
 
-    // Function to search and highlight text on the page
-    function searchPage(event) {
-      event.preventDefault(); // Prevent form from submitting
-
-      // Get the search query and clear previous highlights
-      const query = document.getElementById('searchInput').value.trim().toLowerCase();
-      clearHighlights();
-
-      if (query) {
-        // Find all text elements in the content section
-        const elements = document.querySelectorAll('.content p, .content h2, .content h5, .content h1, .content h3, .content h4, .content h6');
-        elements.forEach(element => {
-          const text = element.innerHTML;
-          const regex = new RegExp(`(${query})`, 'gi');
-
-          // Highlight matches by wrapping them in a span with a highlight class
-          const highlightedText = text.replace(regex, '<span class="bg-warning text-dark">$1</span>');
-          element.innerHTML = highlightedText;
-        });
-      }
-    }
-
-    // Function to clear previous highlights
-    function clearHighlights() {
-      const highlightedElements = document.querySelectorAll('.highlight');
-      highlightedElements.forEach(element => {
-        element.classList.remove('highlight');
-        element.outerHTML = element.innerText; // Replace highlighted text with plain text
-      });
-    }
   </script>
 
   <script>
