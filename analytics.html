@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="HandheldFriendly" content="true">
+    <title>Data Analyst Certification</title>
+    <meta name="description"
+        content="Join Alfido Tech's IT Internship 2024! Gain practical experience in Frontend Development, Python, and Data Analysis. Start your journey in technology today!">
+    <meta name="keywords"
+        content="internship, alfido tech internship, Remote IT Internship 2024, IT Graduate Programs, Frontend Developer Internship, Python Developer Internship, Data Analysis Internship, Hands-on IT Experience">
+    <meta name="author" content="Alfido Tech">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.alfidotech.com/">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph Metadata for Alfido Tech's Remote IT Internship 2024 -->
+    <meta property="og:title" content="Data Analyst Certification">
+    <meta property="og:description"
+        content="Apply for Alfido Tech's Remote IT Internship 2024! Gain practical skills in Frontend Development, Python, Data Analysis, and more. Jumpstart your tech journey with us.">
+    <meta property="og:image" content="https://www.alfidotech.com/data1.webp">
+    <meta property="og:url" content="https://www.alfidotech.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Alfido Tech">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:alt" content="Alfido Tech Internship 2025 Banner">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKXWNH34MG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-HKXWNH34MG');
+    </script>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #212529;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .quiz-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            background: #ffffff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: #007bff;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .btn-custom {
+            background: linear-gradient(to right, #56ab2f, #a8e063);
+            color: #ffffff;
+            border: none;
+            font-size: 1.1rem;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-content {
+            text-align: center;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: #ffffff;
+            border-radius: 15px;
+            animation: slideDown 0.6s ease-in-out;
+        }
+
+        .modal-body {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .modal-header {
+            border-bottom: none;
+        }
+
+        .modal-footer {
+            border-top: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-60px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        label {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        input[type="radio"] {
+            margin-right: 12px;
+        }
+
+        /* Adjustments for WhatsApp button */
+        #whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        #whatsapp-btn img {
+            width: 80px;
+            height: 90px;
+            alt: "Contact us on WhatsApp";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="https://www.alfidotech.com/">
+                    <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="240" loading="lazy">
+                </a>
+    
+                <!-- Navbar Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Navbar Links and Search Bar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="https://www.alfidotech.com/"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.alfidotech.com/service.html"><b>Services</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <b>Internship</b>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/registration.html">Internship Registration</a></li>
+                              <li><a class="dropdown-item" href="https://www.alfidotech.com/offer.html" target="_blank">Offer Letter</a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/submission.html">Task Submission</a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/certificate.html"><b>Certificate</b></a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/internProfile.html"><b>Intern Profile</b></a></li>
+                              
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/task.html"><b>Tasks</b></a></li>
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/profile.html"><b>Profile</b></a></li>
+                                
+                                <li><a class="dropdown-item" href="https://www.alfidotech.com/editor.html" target="_blank">Code Editor</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.alfidotech.com/contact.html"><b>Contact Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="https://www.alfidotech.com/certification.html"><b>Certification</b></a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.alfidotech.com/blog.html"><b>Blog</b></a>
+                        </li>
+                    
+                        
+                    </ul>
+    
+                    <!-- Search Form -->
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="quiz-container">
+
+        <h1 class="text-center">Data Analyst Certification Quiz</h1>
+        <hr>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">1. What is the purpose of data cleaning?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q1" value="correct" class="form-check-input" id="q1a">
+                    <label class="form-check-label" for="q1a">To remove errors and inconsistencies</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q1" value="wrong" class="form-check-input" id="q1b">
+                    <label class="form-check-label" for="q1b">To increase the dataset size</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q1" value="wrong" class="form-check-input" id="q1c">
+                    <label class="form-check-label" for="q1c">To reduce analysis time</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q1" value="wrong" class="form-check-input" id="q1d">
+                    <label class="form-check-label" for="q1d">To improve data visualization</label>
+                </div>
+            </div>
+
+
+            <!-- More Questions (2-19) -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">2. Which of these is a key responsibility of a data analyst?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q2" value="correct" class="form-check-input" id="q2a">
+                    <label class="form-check-label" for="q2a">Interpreting data to draw actionable insights</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q2" value="wrong" class="form-check-input" id="q2b">
+                    <label class="form-check-label" for="q2b">Developing machine learning models</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q2" value="wrong" class="form-check-input" id="q2c">
+                    <label class="form-check-label" for="q2c">Creating software applications</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q2" value="wrong" class="form-check-input" id="q2d">
+                    <label class="form-check-label" for="q2d">Cleaning and preparing data for analysis</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">3. What does the acronym SQL stand for?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q3" value="correct" class="form-check-input" id="q3a">
+                    <label class="form-check-label" for="q3a">Structured Query Language</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q3" value="wrong" class="form-check-input" id="q3b">
+                    <label class="form-check-label" for="q3b">Simple Query Language</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q3" value="wrong" class="form-check-input" id="q3c">
+                    <label class="form-check-label" for="q3c">Standard Query Language</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q3" value="wrong" class="form-check-input" id="q3d">
+                    <label class="form-check-label" for="q3d">Sequential Query Language</label>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label fw-bold">4. What type of chart is best for showing proportions?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q4" value="wrong" class="form-check-input" id="q4a">
+                    <label class="form-check-label" for="q4a">Line Chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q4" value="wrong" class="form-check-input" id="q4b">
+                    <label class="form-check-label" for="q4b">Bar Chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q4" value="wrong" class="form-check-input" id="q4c">
+                    <label class="form-check-label" for="q4c">Scatter Plot</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q4" value="correct" class="form-check-input" id="q4d">
+                    <label class="form-check-label" for="q4d">Pie Chart</label>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label fw-bold">5. Which of the following libraries is commonly used for data visualization in Python?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q5" value="wrong" class="form-check-input" id="q5a">
+                    <label class="form-check-label" for="q5a">NumPy</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q5" value="correct" class="form-check-input" id="q5b">
+                    <label class="form-check-label" for="q5b">Matplotlib</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q5" value="wrong" class="form-check-input" id="q5c">
+                    <label class="form-check-label" for="q5c">Scikit-learn</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q5" value="wrong" class="form-check-input" id="q5d">
+                    <label class="form-check-label" for="q5d">TensorFlow</label>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label fw-bold">6. What is the purpose of a primary key in a database?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q6" value="correct" class="form-check-input" id="q6a">
+                    <label class="form-check-label" for="q6a">To uniquely identify each record</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q6" value="wrong" class="form-check-input" id="q6b">
+                    <label class="form-check-label" for="q6b">To store relationships between tables</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q6" value="wrong" class="form-check-input" id="q6c">
+                    <label class="form-check-label" for="q6c">To index the data</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q6" value="wrong" class="form-check-input" id="q6d">
+                    <label class="form-check-label" for="q6d">To create a foreign key</label>
+                </div>
+            </div>
+            
+
+            <!-- Question 7 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">7. Which of the following is a quantitative data type?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q7" value="wrong" class="form-check-input" id="q7a">
+                    <label class="form-check-label" for="q7a">Gender</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q7" value="correct" class="form-check-input" id="q7b">
+                    <label class="form-check-label" for="q7b">Age</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q7" value="wrong" class="form-check-input" id="q7c">
+                    <label class="form-check-label" for="q7c">Feedback</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q7" value="wrong" class="form-check-input" id="q7d">
+                    <label class="form-check-label" for="q7d">City</label>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">8. Which tool is primarily used for data analysis in Excel?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q8" value="wrong" class="form-check-input" id="q8a">
+                    <label class="form-check-label" for="q8a">Histogram Chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q8" value="wrong" class="form-check-input" id="q8b">
+                    <label class="form-check-label" for="q8b">Goal Seek</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q8" value="wrong" class="form-check-input" id="q8c">
+                    <label class="form-check-label" for="q8c">Pivot Table</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q8" value="correct" class="form-check-input" id="q8d">
+                    <label class="form-check-label" for="q8d">Solver</label>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">9. Which programming language is most commonly associated with data analysis?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q9" value="wrong" class="form-check-input" id="q9a">
+                    <label class="form-check-label" for="q9a">Java</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q9" value="wrong" class="form-check-input" id="q9b">
+                    <label class="form-check-label" for="q9b">C++</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q9" value="wrong" class="form-check-input" id="q9c">
+                    <label class="form-check-label" for="q9c">PHP</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q9" value="correct" class="form-check-input" id="q9d">
+                    <label class="form-check-label" for="q9d"> Python</label>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">10. Which library in Python is used for data manipulation and analysis?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q10" value="wrong" class="form-check-input" id="q10a">
+                    <label class="form-check-label" for="q10a">Matplotlib</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q10" value="correct" class="form-check-input" id="q10b">
+                    <label class="form-check-label" for="q10b">Pandas</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q10" value="wrong" class="form-check-input" id="q10c">
+                    <label class="form-check-label" for="q10c">NumPy</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q10" value="wrong" class="form-check-input" id="q10d">
+                    <label class="form-check-label" for="q10d">TensorFlow</label>
+                </div>
+            </div>
+
+            <!-- Question 11 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">11. Which tool is commonly used for creating dashboards?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q11" value="wrong" class="form-check-input" id="q11a">
+                    <label class="form-check-label" for="q11a">Visual Studio</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q11" value="wrong" class="form-check-input" id="q11b">
+                    <label class="form-check-label" for="q11b">Adobe Photoshop</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q11" value="correct" class="form-check-input" id="q11c">
+                    <label class="form-check-label" for="q11c">Power BI</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q11" value="wrong" class="form-check-input" id="q11d">
+                    <label class="form-check-label" for="q11d">Notepad++</label>
+                </div>
+            </div>
+
+            <!-- Question 12 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">12. Which of the following tools is used for business intelligence reporting?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q12" value="correct" class="form-check-input" id="q12a">
+                    <label class="form-check-label" for="q12a">Microsoft Power BI</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q12" value="wrong" class="form-check-input" id="q12b">
+                    <label class="form-check-label" for="q12b">Canva</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q12" value="wrong" class="form-check-input" id="q12c">
+                    <label class="form-check-label" for="q12c">Jupyter Notebook</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q12" value="wrong" class="form-check-input" id="q12d">
+                    <label class="form-check-label" for="q12d">Google Sheets</label>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">13. In a histogram, what does the height of each bar represent?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q13" value="correct" class="form-check-input" id="q13a">
+                    <label class="form-check-label" for="q13a">Data frequency</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q13" value="wrong" class="form-check-input" id="q13b">
+                    <label class="form-check-label" for="q13b">Data type</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q13" value="wrong" class="form-check-input" id="q13c">
+                    <label class="form-check-label" for="q13c">Data relationship</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q13" value="wrong" class="form-check-input" id="q13d">
+                    <label class="form-check-label" for="q13d">Category name</label>
+                </div>
+            </div>
+
+            <!-- Question 14 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">14. What is the first step in any data analysis process?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q14" value="wrong" class="form-check-input" id="q14a">
+                    <label class="form-check-label" for="q14a">Running statistical tests</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q14" value="correct" class="form-check-input" id="q14b">
+                    <label class="form-check-label" for="q14b">Understanding the problem statement</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q14" value="wrong" class="form-check-input" id="q14c">
+                    <label class="form-check-label" for="q14c">Data visualization</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q14" value="wrong" class="form-check-input" id="q14d">
+                    <label class="form-check-label" for="q14d"> Data cleaning</label>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">15. Which of the following is used for numerical computations in Python?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q15" value="correct" class="form-check-input" id="q15a">
+                    <label class="form-check-label" for="q15a"> NumPy</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q15" value="wrong" class="form-check-input" id="q15b">
+                    <label class="form-check-label" for="q15b">Seaborn</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q15" value="wrong" class="form-check-input" id="q15c">
+                    <label class="form-check-label" for="q15c">Matplotlib</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q15" value="wrong" class="form-check-input" id="q15d">
+                    <label class="form-check-label" for="q15d">Pandas</label>
+                </div>
+            </div>
+
+            <!-- Question 16 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">16. Which library is used for creating plots in Python?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q16" value="wrong" class="form-check-input" id="q16a">
+                    <label class="form-check-label" for="q16a">Seaborn</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q16" value="correct" class="form-check-input" id="q16b">
+                    <label class="form-check-label" for="q16b">Matplotlib</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q16" value="wrong" class="form-check-input" id="q16c">
+                    <label class="form-check-label" for="q16c">Pandas</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q16" value="wrong" class="form-check-input" id="q16d">
+                    <label class="form-check-label" for="q16d">NumPy</label>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">17. What type of graph is best for showing trends over time?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q17" value="wrong" class="form-check-input" id="q17a">
+                    <label class="form-check-label" for="q17a">Scatter plot</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q17" value="wrong" class="form-check-input" id="q17b">
+                    <label class="form-check-label" for="q17b">Bar graph</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q17" value="correct" class="form-check-input" id="q17c">
+                    <label class="form-check-label" for="q17c">Line chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q17" value="wrong" class="form-check-input" id="q17d">
+                    <label class="form-check-label" for="q17d">Pie chart</label>
+                </div>
+            </div>
+
+            <!-- Question 18 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">18. Which of the following is an example of categorical data?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q18" value="correct" class="form-check-input" id="q18a">
+                    <label class="form-check-label" for="q18a">Customer satisfaction level (e.g., Satisfied, Neutral, Dissatisfied)</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q18" value="wrong" class="form-check-input" id="q18b">
+                    <label class="form-check-label" for="q18b">Annual income</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q18" value="wrong" class="form-check-input" id="q18c">
+                    <label class="form-check-label" for="q18c">Employee ID</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q18" value="wrong" class="form-check-input" id="q18d">
+                    <label class="form-check-label" for="q18d">Temperature in Celsius</label>
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">19. Which chart is best for comparing multiple categories?</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q19" value="correct" class="form-check-input" id="q19a">
+                    <label class="form-check-label" for="q19a">Bar chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q19" value="wrong" class="form-check-input" id="q19b">
+                    <label class="form-check-label" for="q19b">Histogram</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q19" value="wrong" class="form-check-input" id="q19c">
+                    <label class="form-check-label" for="q19c">Line chart</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="q19" value="wrong" class="form-check-input" id="q19d">
+                    <label class="form-check-label" for="q19d">Scatter plot</label>
+                </div>
+            </div>
+
+
+            <!-- Continue adding questions similarly up to question 19 -->
+
+            <!-- Submit Button -->
+            <button type="button" class="btn btn-custom mt-4" onclick="calculateScore()">Submit Quiz</button>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="scoreModal" tabindex="-1" aria-labelledby="scoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="scoreModalLabel">Quiz Result</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="scoreModalBody">
+                    <!-- Score will be inserted here -->
+                </div>
+                
+                <div class="modal-footer text-center">
+                    <a href="https://payments.cashfree.com/forms/certification19">
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Certificate</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="">
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c1c31">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+                <!-- Left -->
+                <div class="me-5">
+                    <span><b>Get connected with us on social networks:</b></span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=61552559429791" class="text-white me-4">
+                        <i class="bi bi-facebook"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/alfidotech" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/alfido_tech/" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/alfido-tech/" class="text-white me-4">
+                        <i class="fab fa-linkedin"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                    
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">Alfido Tech</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #e811c1; height: 2px" />
+                            <p>
+
+                                Alfido Tech offers digital solutions in custom software development, social media
+                                marketing, SEO, and Google Ads optimization to boost online presence and engagement.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#Design" class="text-white">Design & Development</a>
+                            </p>
+                            <p>
+                                <a href="#Social" class="text-white">Social Media Marketing</a>
+                            </p>
+                            <hr>
+                            <!-- <p>
+                <a href="Shipping&Delivery.html" class="text-white">Shipping and Delivery</a>
+              </p>
+              <p>
+                <a href="Cancellation&Refund.html" class="text-white">Cancellation and Refund</a>
+              </p> -->
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <!-- <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p> -->
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #221152; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Hyderabad, Telangana</p>
+                            <p><i class="fas fa-envelope mr-3"></i> alfidotech@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> +91 9977465250</p>
+                            <p><i class="fas fa-print mr-3"></i></p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <footer class="bg-body-tertiary text-center">
+                <div class="container p-4 ">
+                    <p class="text-muted">©2019 - 2025 Alfido Tech. All rights reserved. | <a
+                            href="privacy.html">Privacy
+                            Policy</a> | <a href="Terms&Conditions.html">Terms and Conditions</a></p>
+                </div>
+            </footer>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+    <br>
+    <div id="whatsapp-btn">
+        <a href="https://api.whatsapp.com/send?phone=919977465250" target="_blank">
+            <img src="https://th.bing.com/th/id/R.35ffa6e353468280a59e5b4672b8aba0?rik=7hSGUWDIrp%2bhLg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fWhatsApp-PNG-Picture.png&ehk=deet7YvWTlFf4Xe0LZBhIsS4NJ84GeEnFqKz44GkR%2bo%3d&risl=&pid=ImgRaw&r=0"
+                alt="WhatsApp" class="img-fluid bi bi-whatsapp">
+        </a>
+    </div>
+
+    <script>
+        function calculateScore() {
+            const form = document.getElementById('quiz-form');
+            const inputs = form.querySelectorAll('input[type=radio]:checked');
+            let score = 0;
+
+            inputs.forEach(input => {
+                if (input.value === 'correct') {
+                    score += 100 / 19; // Each question contributes equally to 100 marks
+                }
+            });
+
+            const percentage = (score / 100) * 100;
+
+            // Show score in the modal
+            const modalBody = document.getElementById('scoreModalBody');
+            modalBody.textContent = `You scored ${percentage.toFixed(2)}%.`;
+            const scoreModal = new bootstrap.Modal(document.getElementById('scoreModal'));
+            scoreModal.show();
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
