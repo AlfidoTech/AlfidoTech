@@ -153,10 +153,60 @@
                 padding: 1rem;
             }
         }
+
+        /* Adjustments for WhatsApp button */
+    #logo-btn {
+      position: fixed;
+      top: 50px; /* Added margin from top */
+      right: 50px; /* Margin from right */
+      z-index: 1000;
+    }
+
+    #logo-btn img {
+      width: 120px; /* Default size */
+      height: 120px;
+      alt: "Contact us on WhatsApp";
+      transition: width 0.3s ease, height 0.3s ease;
+    }
+
+    /* Responsive size for different screens */
+    @media (max-width: 1024px) {
+      #logo-btn img {
+        width: 100px; /* Adjust size on medium screens */
+        height: 100px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #logo-btn img {
+        width: 90px; /* Smaller size for smaller devices */
+        height: 90px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      #logo-btn img {
+        width: 70px; /* Even smaller on very small devices */
+        height: 70px;
+      }
+    }
+
+    /* Optional: make the button a little less intrusive on small screens */
+    @media (max-width: 576px) {
+      #logo-btn {
+        top: 70px; /* Adjust positioning on small screens */
+        right: 40px;
+      }
+    }
     </style>
 </head>
 
 <body>
+    <div id="logo-btn">
+    <img
+      src="Logo2.png"
+      alt="Logo"/>
+</div>
     <div class="container-fluid">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
