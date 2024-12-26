@@ -96,6 +96,7 @@
             align-items: center;
             position: relative;
             overflow: hidden;
+
         }
 
         .card-title {
@@ -103,6 +104,7 @@
             color: #2d3436;
             font-size: 1.2rem;
             margin-top: 1rem;
+
         }
 
         .card i {
@@ -154,6 +156,10 @@
             }
         }
 
+        a {
+            text-decoration: none;
+            color: #000;
+        }
         /* Adjustments for WhatsApp button */
     #logo-btn {
       position: fixed;
@@ -194,19 +200,20 @@
     /* Optional: make the button a little less intrusive on small screens */
     @media (max-width: 576px) {
       #logo-btn {
-        top: 70px; /* Adjust positioning on small screens */
-        right: 40px;
+        top: 50px; /* Adjust positioning on small screens */
+        right: 50px;
       }
     }
     </style>
 </head>
 
 <body>
+
     <div id="logo-btn">
-    <img
-      src="Logo2.png"
-      alt="Logo"/>
-</div>
+        <img
+          src="logot.png"
+          alt="Logo"/>
+    </div>
     <div class="container-fluid">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -272,58 +279,78 @@
         <h1 class="title">Quiz Certification</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
-                <div class="card" onclick="openDomainPage('frontend')" role="button" tabindex="0"
-                    aria-label="Frontend Developer">
-                    <i class="fas fa-code"></i>
-                    <h5 class="card-title">Frontend Developer</h5>
-                </div>
+                <a href="https://www.alfidotech.com/frontend.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('frontend')" role="button" tabindex="0"
+                        aria-label="Frontend Developer">
+                        <i class="fas fa-code"></i>
+                        <h5 class="card-title">Frontend Developer</h5>
+                    </div>
+
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('net')" role="button" tabindex="0" aria-label=".Net Developer">
-                    <i class="fas fa-laptop-code"></i>
-                    <h5 class="card-title">.Net Developer</h5>
-                </div>
+                <a href="https://www.alfidotech.com/net.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('net')" role="button" tabindex="0"
+                        aria-label=".Net Developer">
+                        <i class="fas fa-laptop-code"></i>
+                        <h5 class="card-title">.Net Developer</h5>
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('reactjs')" role="button" tabindex="0" aria-label="React.JS">
-                    <i class="fab fa-react"></i>
-                    <h5 class="card-title">React.JS</h5>
-                </div>
+                <a href="https://www.alfidotech.com/reactjs.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('reactjs')" role="button" tabindex="0"
+                        aria-label="React.JS">
+                        <i class="fab fa-react"></i>
+                        <h5 class="card-title">React.JS</h5>
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('python')" role="button" tabindex="0"
-                    aria-label="Python Developer">
-                    <i class="fab fa-python"></i>
-                    <h5 class="card-title">Python Developer</h5>
-                </div>
+                <a href="https://www.alfidotech.com/python.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('python')" role="button" tabindex="0"
+                        aria-label="Python Developer">
+                        <i class="fab fa-python"></i>
+                        <h5 class="card-title">Python Developer</h5>
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('java')" role="button" tabindex="0"
-                    aria-label="Java Developer">
-                    <i class="fab fa-java"></i>
-                    <h5 class="card-title">Java Developer</h5>
-                </div>
+                <a href="https://www.alfidotech.com/java.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('java')" role="button" tabindex="0"
+                        aria-label="Java Developer">
+                        <i class="fab fa-java"></i>
+                        <h5 class="card-title">Java Developer</h5>
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('datascience')" role="button" tabindex="0"
-                    aria-label="Data Science">
-                    <i class="fas fa-database"></i>
-                    <h5 class="card-title">Data Science</h5>
-                </div>
+                <a href="https://www.alfidotech.com/datascience.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('datascience')" role="button" tabindex="0"
+                        aria-label="Data Science">
+                        <i class="fas fa-database"></i>
+                        <h5 class="card-title">Data Science</h5>
+
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('analytics')" role="button" tabindex="0"
-                    aria-label="Data Analytics">
-                    <i class="fas fa-chart-line"></i>
-                    <h5 class="card-title">Data Analytics</h5>
-                </div>
+                <a href="https://www.alfidotech.com/analytics.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('analytics')" role="button" tabindex="0"
+                        aria-label="Data Analytics">
+                        <i class="fas fa-chart-line"></i>
+                        <h5 class="card-title">Data Analytics</h5>
+                    </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card" onclick="openDomainPage('android')" role="button" tabindex="0"
-                    aria-label="Android Developer">
-                    <i class="fab fa-android"></i>
-                    <h5 class="card-title">Android Developer</h5>
-                </div>
+                <a href="https://www.alfidotech.com/android.html" target="_blank">
+                    <div class="card" onclick="openDomainPage('android')" role="button" tabindex="0"
+                        aria-label="Android Developer">
+                        <i class="fab fa-android"></i>
+                        <h5 class="card-title">Android Developer</h5>
+                    </div>
+                </a>
             </div>
         </div>
     </div><br><br><br><br><br>
@@ -506,7 +533,7 @@
             window.location.href = domainPages[domain] || 'https://www.alfidotech.com/';
         }
     </script>
-   
+
 
 
 </body>
