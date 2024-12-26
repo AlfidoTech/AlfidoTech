@@ -1,4 +1,4 @@
-<?xml version="1.9" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,132 +9,177 @@
 
 <url>
   <loc>https://www.alfidotech.com/</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/service.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/registration.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/offer.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/submission.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfidotech.com/internProfile.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfidotech.com/task.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfidotech.com/editor.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/certificate.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.alfidotech.com/contact.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <loc>https://www.alfidotech.com/internProfile.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.alfidotech.com/blog.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <loc>https://www.alfidotech.com/task.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/profile.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/editor.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/contact.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/certification.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/blog.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/cookie-policy.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/Shipping&amp;Delivery.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/Cancellation&amp;Refund.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/privacy.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Terms&amp;Conditions.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/index.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.alfidotech.com/bankinfo.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.alfidotech.com/Terms%20of%20Service.pdf</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Web_Development.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Python_Development.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Java_Developmen.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Data_Analyst.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Data_Science.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/UXUI_Design.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/Android_Development.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.alfidotech.com/recat.html</loc>
-  <lastmod>2024-12-10T15:45:15+00:00</lastmod>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/frontend.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/net.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/reactjs.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/python.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/java.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/datascience.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/analytics.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.alfidotech.com/android.html</loc>
+  <lastmod>2024-12-26T15:52:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
