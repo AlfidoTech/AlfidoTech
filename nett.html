@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="HandheldFriendly" content="true">
+    <title>.NET Developer | Alfido Tech Internship</title>
+
+    <!-- Meta Information -->
+    <meta name="keywords"
+        content="IT Internship, Remote IT Internship 2024, Tech Internship Opportunities, IT Internship Application Process, Information Technology Intern, Alfido Tech Internship">
+    <meta name="author" content="Bhanu Pratap Biswas">
+    <meta name="description"
+        content="Explore exciting IT internship opportunities at Alfido Tech. Gain hands-on experience in technology and kickstart your career.">
+
+    <!-- Favicon and Manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph Tags for Social Media Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.alfidotech.com/">
+    <meta property="og:title" content="Alfido Tech Internship">
+    <meta property="og:description"
+        content="Join Alfido Tech's Internship Program and gain hands-on experience in cutting-edge technology fields. Apply now to start your tech career!">
+    <meta property="og:image" content="https://www.alfidotech.com/logo.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKXWNH34MG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-HKXWNH34MG');
+    </script>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .back {
+            background: url(bgi.webp) no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Adjustments for WhatsApp button */
+        #whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        #whatsapp-btn img {
+            max-width: 100%;
+            height: auto;
+            width: 80px;
+            height: 90px;
+        }
+
+        @media (max-width: 768px) {
+            .row-cols-4 {
+                row-cols-2;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .row-cols-4 {
+                row-cols-1;
+            }
+        }
+
+        .back1 {
+            background-image: url(bgi.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .responsive-table th,
+        .responsive-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        .responsive-table thead {
+            background-color: #f2f2f2;
+        }
+
+        .responsive-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        @media (max-width: 600px) {
+            .responsive-table thead {
+                display: none;
+            }
+
+            .responsive-table,
+            .responsive-table tbody,
+            .responsive-table tr,
+            .responsive-table td {
+                display: block;
+                width: 100%;
+            }
+
+            .responsive-table tr {
+                margin-bottom: 15px;
+            }
+
+            .responsive-table td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+
+            .responsive-table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+
+        .b {
+            color: blue;
+        }
+
+        .b1 {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body class="">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="Logo 2.png" alt="Alfido Tech Logo" height="50" width="250">
+                </a>
+
+                <!-- Navbar Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links and Search Bar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html"><b>Service</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <b>Internship</b>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="registration.html">Registration</a></li>
+                                <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="task.html"><b>Tasks</b></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificate.html"><b>Verify Certificate</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" t><b>Contact Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" t><b>Blog</b></a>
+                        </li>
+                    </ul>
+
+                    <!-- Search Form -->
+                    <form class="d-flex" role="search" onsubmit="searchPage(event)">
+                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success DocSearch DocSearch-Button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-xxl py-2 bg-primary back1 hero-header">
+        <div class="container my-2 py-2 px-lg-2">
+            <div class="row g-5 py-5">
+                <div class="col-12 text-center">
+                    <br /><br /><br />
+                    <h1 class="text-white animated slideInDown">.NET Developer Tasks</h1>
+                    <hr class="bg-white mx-auto mt-0" style="width: 90px;" />
+                    <nav aria-label="breadcrumb">
+                        <!--   <ol class="breadcrumb justify-content-center">
+                                  <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                                  <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                                  <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                              </ol>   -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Navbar & Hero End -->
+    <div class="container">
+        <table class="responsive-table shadow-lg p-3 mb-5 bg-body rounded">
+            <thead>
+                <tr>
+                    <th class="b1">
+                        <h3 class="text-white animated slideInDown">Task </h3>
+                    </th>
+                    <th class="b1">
+                        <h3 class="text-white animated slideInDown">Objective</h3>
+                    </th>
+                    <th class="b1">
+                        <h3 class="text-white animated slideInDown">Features</h3>
+                    </th>
+                    <th class="b1">
+                        <h3 class="text-white animated slideInDown">Technologies</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Task" class="text- animated slideInDown h5 b ">Build a Personal Portfolio Website
+                        with ASP.NET Core</td>
+                    <td data-label="Objective">Create a personal portfolio website to showcase your projects and skills
+                        using ASP.NET Core.</td>
+                    <td data-label="Features">
+                        <ul>
+                            <li>A homepage with an introduction and a brief about yourself.</li>
+                            <li>A "Projects" section to display your projects with descriptions and links.</li>
+                            <li>A "Skills" section to list your technical skills.</li>
+                            <li>A "Contact" page with a form for visitors to reach out to you.</li>
+                        </ul>
+                    </td>
+                    <td data-label="Technologies">ASP.NET Core, C#, HTML, CSS, JavaScript.</td>
+                </tr>
+                <tr>
+                    <td data-label="Task" class="text- animated slideInDown h5 b ">Develop a Simple To-Do List
+                        Application with ASP.NET Core</td>
+                    <td data-label="Objective">Create a functional to-do list application where users can add, edit,
+                        delete, and mark tasks as complete using ASP.NET Core.</td>
+                    <td data-label="Features">
+                        <ul>
+                            <li>An input field to add new tasks.</li>
+                            <li>The ability to edit existing tasks.</li>
+                            <li>A checkbox or button to mark tasks as completed.</li>
+                            <li>A filter to view only pending, completed, or all tasks.</li>
+                        </ul>
+                    </td>
+                    <td data-label="Technologies">ASP.NET Core, C#, HTML, CSS, JavaScript.</td>
+                </tr>
+                <tr>
+                    <td data-label="Task" class="text- animated slideInDown h5 b ">Create a Basic Blog Application with
+                        ASP.NET Core</td>
+                    <td data-label="Objective">Design and develop a basic blog application to post articles and manage
+                        content using ASP.NET Core.</td>
+                    <td data-label="Features">
+                        <ul>
+                            <li>A homepage that displays a list of blog posts with excerpts.</li>
+                            <li>An individual post page with the full content and comments section.</li>
+                            <li>Responsive navigation with a search bar and category filter.</li>
+                            <li>A simple admin panel to add, edit, and delete blog posts.</li>
+                        </ul>
+                    </td>
+                    <td data-label="Technologies">ASP.NET Core, C#, HTML, CSS, JavaScript.</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <div class="text-center">
+            <button onclick="window.print()" class="btn btn-primary">Print</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="">
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c1c31">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+                <!-- Left -->
+                <div class="me-5">
+                    <span><b>Get connected with us on social networks:</b></span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="text-white me-4">
+                        <i class="bi bi-facebook"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-google"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-google" viewBox="0 0 16 16">
+                            <path
+                                d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
+                        </svg>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/alfido-tech/" class="text-white me-4">
+                        <i class="fab fa-linkedin"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-github"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">Alfido Tech</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #e811c1; height: 2px" />
+                            <p>
+
+                                Alfido Tech offers a suite of digital solutions, specializing in design and development
+                                for custom software and applications. They enhance online presence through expert social
+                                media marketing and SEO optimization services to improve search engine rankings and
+                                visibility. Additionally, they provide an Auto Google Ads Clicker tool designed to boost
+                                ad performance and engagement.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#Design" class="text-white">Design & Development</a>
+                            </p>
+                            <p>
+                                <a href="#Social" class="text-white">Social Media Marketing</a>
+                            </p>
+                            <p>
+                                <a href="#SEO" class="text-white">SEO Optimization</a>
+                            </p>
+                            <p>
+                                <a href="#Auto" class="text-white">Auto Google Ads Clicker</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <!-- <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p> -->
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #221152; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Hyderabad, Telangana</p>
+                            <p><i class="fas fa-envelope mr-3"></i> info@alfidotech.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> +91 9977465250</p>
+                            <p><i class="fas fa-print mr-3"></i></p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <footer class="bg-body-tertiary text-center">
+                <div class="container p-4 ">
+                    <p class="text-muted">© 2024 Alfido Tech. All rights reserved. | <a href="privacy.html">Privacy
+                            Policy</a> | <a href="#">Terms of Service</a></p>
+                </div>
+            </footer>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+    <br>
+    <div id="whatsapp-btn">
+        <a href="https://api.whatsapp.com/send?phone=919977465250" target="_blank">
+            <img src="https://th.bing.com/th/id/R.35ffa6e353468280a59e5b4672b8aba0?rik=7hSGUWDIrp%2bhLg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fWhatsApp-PNG-Picture.png&ehk=deet7YvWTlFf4Xe0LZBhIsS4NJ84GeEnFqKz44GkR%2bo%3d&risl=&pid=ImgRaw&r=0"
+                alt="WhatsApp" class="img-fluid bi bi-whatsapp">
+        </a>
+    </div>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> -->
+
+    <script>
+        // Function to send an email with pre-filled details
+        function sendEmail() {
+            const email = "alfidotech@gmail.com";  // Replace with your email address
+            const subject = "Inquiry about Alfido Tech Services";
+            const body = "Hello, I would like to know more about your services.";
+
+            // Open default email client with pre-filled email
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
+
+        // Function to search and highlight text on the page
+        function searchPage(event) {
+            event.preventDefault(); // Prevent form from submitting
+
+            // Get the search query and clear previous highlights
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            clearHighlights();
+
+            if (query) {
+                // Find all text elements in the content section
+                const elements = document.querySelectorAll('.content p, .content h2, .content h5, .content h1, .content h3, .content h4, .content h6');
+                elements.forEach(element => {
+                    const text = element.innerHTML;
+                    const regex = new RegExp(`(${query})`, 'gi');
+
+                    // Highlight matches by wrapping them in a span with a highlight class
+                    const highlightedText = text.replace(regex, '<span class="bg-warning text-dark">$1</span>');
+                    element.innerHTML = highlightedText;
+                });
+            }
+        }
+
+        // Function to clear previous highlights
+        function clearHighlights() {
+            const highlightedElements = document.querySelectorAll('.highlight');
+            highlightedElements.forEach(element => {
+                element.classList.remove('highlight');
+                element.outerHTML = element.innerText; // Replace highlighted text with plain text
+            });
+        }
+    </script>
+
+    <script>
+        // Counter-Up Animation Script
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach(counter => {
+            counter.innerText = '0';
+            const updateCounter = () => {
+                const target = +counter.getAttribute('data-target');
+                const c = +counter.innerText;
+                const increment = target / 200; // Adjust speed by changing 200
+
+                if (c < target) {
+                    counter.innerText = `${Math.ceil(c + increment)}`;
+                    setTimeout(updateCounter, 15); // Update every 15ms
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            updateCounter();
+        });
+    </script>
+
+</body>
+
+</html>
